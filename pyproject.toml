@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-deadline-manager"
+version = "0.1.0"
+description = "Deterministic task prioritization from explicit deadlines"
+requires-python = ">=3.10"
+
+[project.scripts]
+adm = "agent_deadline_manager.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["agent_deadline_manager"]
