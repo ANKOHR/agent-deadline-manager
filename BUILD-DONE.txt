@@ -1,0 +1,8 @@
+Agent Deadline Manager build complete
+Date: 2026-10-01
+Tests: 41 passed (pytest, 0.42 seconds)
+Local implementation commit: 0387cbc687f505ab0d67564bb226f141a99d1769
+This hash identifies the complete implementation, tests, docs and evidence. The following metadata-only commit adds this completion record.
+Demo: installed adm fixtures -> run -> report --format md completed in 0.609177 seconds on 200 synthetic records. Exact ground truth matched: 25 tasks in each of eight categories, zero false positives.
+
+Built a deterministic CPU-only Python CLI with fixtures, run, report, rank and due commands; pure deadline ranking and strict schema validation; exact integer duration arithmetic; labelled synthetic fixtures and independent expectations; Markdown and JSON provenance reports; named errors and atomic report writes; adversarial tests; a hand-written five-task example; full documentation, lessons, measured synthetic evidence and a pending real-use verdict with a fourteen-day improvement hook. No real-use benefits or savings are claimed. Publishing was not performed.
